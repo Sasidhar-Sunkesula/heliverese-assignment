@@ -1,5 +1,10 @@
+import Header from "./components/Header";
 function App() {
-  return <div className="text-xl">hi there</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
