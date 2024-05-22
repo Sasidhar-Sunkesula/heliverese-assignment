@@ -66,7 +66,7 @@ function Header() {
             </button>
           </a>
         </div>
-        <div>
+        <div className="magic-div">
           <img className="magic-img" src="motionarteffect-img5.png" alt="magiccuuuu" />
         </div>
       </div>
@@ -94,7 +94,7 @@ function Header() {
       </div>
       <div className="plugincenter">
         <h1 className="pluginheading">
-          An All-Round Plugin With Powerful Features
+          An All-Round Plugin With <br/>Powerful Features
         </h1>
         <p className="pluginpara">
           Whether you're a seasoned web designer or just starting out, Motion

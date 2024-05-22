@@ -4,11 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgb(
-    1,
-    1,
-    23
-  ); /* Change height to auto to allow content to dictate height */
+  background-color: #231C33; /* Change height to auto to allow content to dictate height */
   width: 90%; /* Adjust width to fit the screen */
   max-width: 350px; /* Set a maximum width to prevent it from stretching too wide on larger screens */
   border-radius: 20px;
@@ -27,16 +23,16 @@
 .headingcenter {
   font-size: 25px;
   background: transparent;
-  text-align: left;
   margin-left: 10px;
   font-weight: 400;
+  justify-content: flex-start;
   font-family: "sora";
   color: #eee5ff;
   margin-bottom: 10px;
 }
 
 .paracenter {
-  font-size: 20px;
+  font-size: 18px;
   background: transparent;
   text-align: left;
   font-family: "outfit";
@@ -49,14 +45,12 @@
 @media screen and (max-width: 768px) {
   .featurebackground {
     width: 90%;
-    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .featurebackground {
     width: 90%;
-    max-width: 250px;
   }
 
   .image {
@@ -65,10 +59,12 @@
   }
 
   .headingcenter {
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
   }
-
+  .feature{
+    width: 80vw;
+  }
   .paracenter {
     font-size: 16px;
   }

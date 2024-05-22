@@ -17,7 +17,7 @@ function Pages({ value }: Props) {
     <div className="pages2">
       <h1 className="heading">{heading}</h1>
       <p className="pagespara">{text}</p>
-      <img src={image} alt="image" />
+      <img className="page-img" src={image} alt="image" />
     </div>
   );
 }

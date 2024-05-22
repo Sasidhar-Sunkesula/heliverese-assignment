@@ -1,7 +1,8 @@
 .pages2 {
-  box-shadow: 2px 2px 2px rgb(51, 50, 50);
-  background-color: #1c0539;
+  background-color: #1D162E;
   margin: 15px;
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   padding: 20px;
 }
@@ -10,14 +11,17 @@
   font-family: "sora";
   font-weight: 400;
   background-color: transparent;
-  text-align: left;
+  text-align: center;
 }
 .pagespara {
   background-color: transparent;
   font-size: 20px;
-  color: #eee5ff;
+  color: #B5ADC6;
+  text-align: center;
   font-family: "outfit";
 }
-.pagesimage {
-  background-color: transparent;
+@media screen and (max-width: 768px) {
+  .pages2{
+    width: 80%;
+  }
 }
