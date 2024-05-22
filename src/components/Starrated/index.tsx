@@ -14,7 +14,7 @@ interface Props {
 function Starrated({ value }: Props) {
   const { image_url, stars, score } = value;
   return (
-    <div className="starrow">
+    <div className="starrow-cards">
       <img src={image_url} alt="image" className="roundimage" />
       <div>
         <img src={stars} alt="starts" className="starimage" />
