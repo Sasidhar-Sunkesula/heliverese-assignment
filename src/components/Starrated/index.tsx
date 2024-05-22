@@ -18,7 +18,7 @@ function Starrated({ value }: Props) {
       <img src={image_url} alt="image" className="roundimage" />
       <div>
         <img src={stars} alt="starts" className="starimage" />
-        <p>{score}</p>
+        <p className="score">{score}</p>
       </div>
     </div>
   );

@@ -1,0 +1,45 @@
+/* General Styles */
+.footer {
+  margin-top: 50px;
+  background-image: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  width: 100%;
+  font-family: "outfit";
+  display: flex;
+  color: #E5BECA;
+  flex-direction: column; /* Change flex-direction to column for smaller screens */
+  justify-content: center;
+  align-items: center; /* Center align items horizontally */
+  font-size: 15px;
+}
+
+.footerright {
+  display: flex;
+  flex-direction: column; /* Stack items vertically for smaller screens */
+  justify-content: center;
+  align-items: center; /* Center align items horizontally */
+  /* Add margin between items */
+}
+/* Responsive Styles */
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row; /* Switch back to row layout for larger screens */
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+  }
+
+  .footerright {
+    flex-direction: row; /* Align items horizontally */
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 0; /* Remove vertical margin */
+  }
+
+  /* .support {
+    margin-top: 0; 
+    margin-left: 20px; 
+  } */
+}
+
