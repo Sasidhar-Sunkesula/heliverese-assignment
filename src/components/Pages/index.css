@@ -2,6 +2,8 @@
   background-color: #1D162E;
   margin: 15px;
   display: flex;
+  width: 40%;
+  gap: 10px;
   flex-direction: column;
   border-radius: 20px;
   padding: 20px;
